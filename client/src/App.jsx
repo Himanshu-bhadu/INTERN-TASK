@@ -5,7 +5,6 @@ import DataList from './components/DataList'
 import { Toaster } from 'react-hot-toast';
 
 function App() {
-
   return (
   <Router>
       <div className="min-h-screen bg-gray-400 py-10 px-4">

@@ -22,6 +22,7 @@ app.get('/api/contacts', async (req, res) => {
   }
 });
 
+
 app.post('/api/contacts', async (req, res) => {
   try {
     const { name, email, phone, message } = req.body;
